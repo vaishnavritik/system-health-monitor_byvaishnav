@@ -11,7 +11,7 @@ set -euo pipefail
 LOGFILE="${LOGFILE:-$HOME/logs/health-$(date +%F).log}"
 CPU_MAX="${CPU_MAX:-80}"
 MEM_MAX="${MEM_MAX:-80}"
-DISK_MAX="${DISK_MAX:-80}"
+DISK_MAX="${DISK_MAX:-90}"
 RETAIN_DAYS="${RETAIN_DAYS:-7}"
 SLACK_WEBHOOK_URL="${SLACK_WEBHOOK_URL:-}"   # optional; empty = skip webhook
 
